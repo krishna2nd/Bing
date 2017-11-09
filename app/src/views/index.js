@@ -1,4 +1,4 @@
-import LoginView from './login';
+import LoginView from './login/index.tsx';
 
 export {
   LoginView,
