@@ -1,11 +1,13 @@
 import * as React from 'react';
 import {
-  LoginView
+  LoginView,
+  DashBoard
 } from './views'
+// <LoginView></LoginView>
 class App extends React.Component {
   render() {
     return (
-      <LoginView></LoginView>
+      <DashBoard ></DashBoard>
     );
   }
 }

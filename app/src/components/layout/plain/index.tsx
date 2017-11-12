@@ -1,9 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 
 class PlainLayout extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container bing">
         {
           this.props.children
         }

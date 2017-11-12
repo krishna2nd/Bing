@@ -1,12 +1,67 @@
-.bing-login {
-  width: 400px;
-  height: 420px;
-  border: solid 1px red;
+.bing .login {
+  width: 450px;
   box-sizing: border-box;
+  padding: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow:
+      0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+      0 10px 0 -5px #eee, /* The second layer */
+      0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+      0 20px 0 -10px #eee, /* The third layer */
+      0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 }
 
-.bing-login-bg {
-  background: #093028; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #093028, #237a57); 
+.bing .login .userId i, .bing .login .userPwd i {
+  float: right;
+  right: 10px;
+  color: black;
 }
+.bing .login {
+  padding-top: 20px;
+}
+.bing .login .ms-TextField .ms-TextField-fieldGroup {
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.bing .login .ms-Label {
+  color: white;
+}
+.bing .login .login-btn {
+  float: right;
+  width: 50%;
+  text-transform: uppercase;
+  height: 44px;
+}
+.bing .login .icon-wraper {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  display: block;
+  width: 5em;
+  border-radius: 5em;
+  background-color: #EFEFEF;
+  border: solid 1px #FFFFFF;
+  cursor: pointer;
+}
+.bing .login .icon-wraper:hover {
+  border: solid 1px #1c92d2;
+
+}
+.bing .login .user-profile {
+  color: gray;
+  font-size: 5em;
+}
+.bing .login .or {
+  padding: 20px;
+  text-align: center;
+  font-size: .8em;
+}
+.bing {
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1c92d2, #f2fcfe); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
